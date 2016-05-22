@@ -8,10 +8,10 @@
 
 #import "ViewController.h"
 #import "ShowModel.h"
+#import "CustomUITableViewCell.h"
 
-@interface ViewController () <UITableViewDataSource, UITableViewDelegate>
+@interface ViewController ()
 
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSMutableArray *modelsArray;
 
 @end
@@ -76,8 +76,9 @@
                         
             
         }
-                               }];
-
+    }];
+    
+    [task resume];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -90,13 +91,15 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    CustomUITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     
     
     ShowModel *model = self.modelsArray[indexPath.row];
+    cell.showModel = model;
     
     //populate cell with artist
-    cell.textLabel.text = model.artist;
+//    cell.textLabel.text = model.artist;
+    
     
     return cell;
     

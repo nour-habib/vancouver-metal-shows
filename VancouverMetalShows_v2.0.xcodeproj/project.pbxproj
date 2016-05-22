@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B8BD6E1CF2528E00E2B7F5 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B8BD6D1CF2528E00E2B7F5 /* CustomCell.xib */; };
+		04B8BD711CF2564A00E2B7F5 /* CustomUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B8BD701CF2564A00E2B7F5 /* CustomUITableViewCell.m */; };
+		04B8BD741CF27B8C00E2B7F5 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B8BD731CF27B8C00E2B7F5 /* CustomCell.m */; };
 		04DCC21F1CD6A1B200ED9EF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DCC21E1CD6A1B200ED9EF3 /* main.m */; };
 		04DCC2221CD6A1B200ED9EF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DCC2211CD6A1B200ED9EF3 /* AppDelegate.m */; };
 		04DCC2251CD6A1B200ED9EF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DCC2241CD6A1B200ED9EF3 /* ViewController.m */; };
@@ -37,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04B8BD6D1CF2528E00E2B7F5 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		04B8BD6F1CF2564A00E2B7F5 /* CustomUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUITableViewCell.h; sourceTree = "<group>"; };
+		04B8BD701CF2564A00E2B7F5 /* CustomUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUITableViewCell.m; sourceTree = "<group>"; };
+		04B8BD721CF27B8C00E2B7F5 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		04B8BD731CF27B8C00E2B7F5 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		04DCC21A1CD6A1B200ED9EF3 /* VancouverMetalShows_v2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VancouverMetalShows_v2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DCC21E1CD6A1B200ED9EF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04DCC2201CD6A1B200ED9EF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,7 +118,12 @@
 				04DCC2201CD6A1B200ED9EF3 /* AppDelegate.h */,
 				04DCC2211CD6A1B200ED9EF3 /* AppDelegate.m */,
 				04DCC2531CD6AC1200ED9EF3 /* MainViewController.h */,
+				04B8BD721CF27B8C00E2B7F5 /* CustomCell.h */,
+				04B8BD731CF27B8C00E2B7F5 /* CustomCell.m */,
+				04B8BD6D1CF2528E00E2B7F5 /* CustomCell.xib */,
 				04DCC2541CD6AC1200ED9EF3 /* MainViewController.m */,
+				04B8BD6F1CF2564A00E2B7F5 /* CustomUITableViewCell.h */,
+				04B8BD701CF2564A00E2B7F5 /* CustomUITableViewCell.m */,
 				04DCC2231CD6A1B200ED9EF3 /* ViewController.h */,
 				04DCC2241CD6A1B200ED9EF3 /* ViewController.m */,
 				04DCC2261CD6A1B200ED9EF3 /* Main.storyboard */,
@@ -255,6 +268,7 @@
 			files = (
 				04DCC22D1CD6A1B200ED9EF3 /* LaunchScreen.storyboard in Resources */,
 				04DCC22A1CD6A1B200ED9EF3 /* Assets.xcassets in Resources */,
+				04B8BD6E1CF2528E00E2B7F5 /* CustomCell.xib in Resources */,
 				04DCC2281CD6A1B200ED9EF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,9 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B8BD711CF2564A00E2B7F5 /* CustomUITableViewCell.m in Sources */,
 				04DCC2521CD6A59300ED9EF3 /* ShowModel.m in Sources */,
 				04DCC2251CD6A1B200ED9EF3 /* ViewController.m in Sources */,
 				04DCC2221CD6A1B200ED9EF3 /* AppDelegate.m in Sources */,
+				04B8BD741CF27B8C00E2B7F5 /* CustomCell.m in Sources */,
 				04DCC2551CD6AC1200ED9EF3 /* MainViewController.m in Sources */,
 				04DCC21F1CD6A1B200ED9EF3 /* main.m in Sources */,
 			);
@@ -508,6 +524,7 @@
 				04DCC2491CD6A1B200ED9EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04DCC24A1CD6A1B200ED9EF3 /* Build configuration list for PBXNativeTarget "VancouverMetalShows_v2.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +533,7 @@
 				04DCC24C1CD6A1B200ED9EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04DCC24D1CD6A1B200ED9EF3 /* Build configuration list for PBXNativeTarget "VancouverMetalShows_v2.0UITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +542,7 @@
 				04DCC24F1CD6A1B200ED9EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

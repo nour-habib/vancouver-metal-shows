@@ -10,12 +10,15 @@
 
 @implementation ShowModel
 
--(instancetype) initWithArtist:(NSString *)artist withDate:(NSString *)date withVenue:(NSString *)venue{
+-(instancetype) initWithArtist:(NSString *)artist withDate: (NSString *)date withVenue:(NSString *)venue withSupportingArtists:(NSString *) supportingArtists withTickets:(NSString*) tickets {
     self = [super init];
     if (self){
         _artist = artist;
         _date = date;
         _venue = venue;
+        _supportingArtists = supportingArtists;
+        _tickets = tickets;
+        
     }
     
     return self;

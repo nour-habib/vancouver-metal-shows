@@ -13,11 +13,11 @@
 @property (strong, nonatomic) NSString *artist;
 @property (strong, nonatomic) NSString *date;
 @property (strong, nonatomic) NSString *venue;
-@property (strong, nonatomic) NSString *supporting_artists;
+@property (strong, nonatomic) NSString *supportingArtists;
 @property (strong, nonatomic) NSString *tickets;
 
 
 //returns instance of a class; use in place of id
--(instancetype) initWithArtist:(NSString *)artist withDate: (NSString *)date withVenue:(NSString *)venue withSupportingArtists:(NSString *) supporting_artists withTickets:(NSString*) tickets;
+-(instancetype) initWithArtist:(NSString *)artist withDate: (NSString *)date withVenue:(NSString *)venue withSupportingArtists:(NSString *) supportingArtists withTickets:(NSString*) tickets;
 
 @end
