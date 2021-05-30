@@ -2,13 +2,12 @@
 //  ViewController.h
 //  VancouverMetalShows_v2.0
 //
-//  Created by Nour on 2016-05-01.
-//  Copyright © 2016 Nour. All rights reserved.
-//
+//  Created by Nour Habib on 2021-05-02.
+//  Copyright © 2021 Nour. All rights reserved.
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
+@interface ViewController : UITableViewController <UITableViewDataSource,UITableViewDelegate,UISearchBarDelegate>
 
 
 @end

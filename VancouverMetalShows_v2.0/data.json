@@ -1,0 +1,65 @@
+ [
+  {
+  "id":"1",
+  "artist":"Megadeth",
+  "date":"2021-10-15",
+  "venue":"Orpheum",
+  "supporting_artists":"Metallica",
+  "tickets":"$50",
+  "artist_image":"megadeth.jpg"
+  },
+  {
+  "id":"2",
+  "artist":"Katatonia",
+  "date":"2021-11-01",
+  "venue":"Venue Nightclub",
+  "supporting_artists":"Tiamat",
+  "tickets":"$40",
+  "artist_image":"katatonia.jpg"
+  },
+  {
+  "id":"3",
+  "artist":"Kataklysm",
+  "date":"2022-02-09",
+  "venue":"Rogers Arena",
+  "supporting_artists":"Gorjira",
+  "tickets":"$75",
+  "artist_image":"kataklysm.jpg"
+  },
+  {
+  "id":"4",
+  "artist":"Inquisition",
+  "date":"2022-04-22",
+  "venue":"Rogers Arena",
+  "supporting_artists":"Dimmu Borgir",
+  "tickets":"$30",
+  "artist_image":"inquisition.jpg"
+  },
+  {
+  "id":"5",
+  "artist":"Borknagar",
+  "date":"2022-07-1",
+  "venue":"Rickshaw Theatre",
+  "supporting_artists":"",
+  "tickets":"$35",
+  "artist_image":"borknagar.jpg"
+  },
+  {
+  "id":"6",
+  "artist":"Agalloch",
+  "date":"2022-08-11",
+  "venue":"Commodore",
+  "supporting_artists":"",
+  "tickets":"$40",
+  "artist_image":"agalloch.jpg"
+  },
+  {
+  "id":"7",
+  "artist":"Amorphis",
+  "date":"2022-09-09",
+  "venue":"Venue",
+  "supporting_artists":"Opeth",
+  "tickets":"$40",
+  "artist_image":"amorphis.jpg"
+  }
+  ]

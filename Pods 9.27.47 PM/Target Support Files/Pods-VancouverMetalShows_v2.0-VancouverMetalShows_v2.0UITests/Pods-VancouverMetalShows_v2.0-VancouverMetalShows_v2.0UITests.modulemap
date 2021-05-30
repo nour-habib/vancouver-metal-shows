@@ -1,0 +1,6 @@
+framework module Pods_VancouverMetalShows_v2_0_VancouverMetalShows_v2_0UITests {
+  umbrella header "Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

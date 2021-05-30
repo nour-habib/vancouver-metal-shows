@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08F89F3090249F0F3D4ED20834D13D68 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 506751D687B089CAA7E3A612CD6CF751 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15E9EA30ACDC19E4B5437B5424367DD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		23AB52417EF9FBED1DB777CDD0F5E391 /* Pods-VancouverMetalShows_v2.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A76688AB14B5608D06BBC8F1916A44B7 /* Pods-VancouverMetalShows_v2.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BA54F84DAB16673E5DEBF4A1782ED5A /* Pods-VancouverMetalShows_v2.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D3D46F7D7E8A9897F66F753311C9BC /* Pods-VancouverMetalShows_v2.0-dummy.m */; };
+		4C03190FEAC53F99BF121DC13F354FB7 /* Pods-VancouverMetalShows_v2.0Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF5362E3AC17F45DD595236A3E247719 /* Pods-VancouverMetalShows_v2.0Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7237986B0CC058548273FED4DF611D6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D38929E25BAB3DFBAA53511F0179E920 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 298BBDF990B03D4B24C32FFAC9EE9539 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-dummy.m */; };
+		EFFFB74491D151ABC4105DD4594EF674 /* Pods-VancouverMetalShows_v2.0Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E734D075D0AAF4802A3741ABE1F36E4 /* Pods-VancouverMetalShows_v2.0Tests-dummy.m */; };
+		FEE17A2F5E96864EF75CF9FFA7C345D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC6EB557C291B78CA1F5A7667DCD28C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 213C3C2282172F7791EBA1E570A3B0C7;
+			remoteInfo = "Pods-VancouverMetalShows_v2.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F7BB85AE953B4AFE5291300A673644B /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		298BBDF990B03D4B24C32FFAC9EE9539 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-dummy.m"; sourceTree = "<group>"; };
+		3F5DB466F05140A793DB05E21B357ADB /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		4D4FAF1B6647224E556A140928D075D1 /* Pods_VancouverMetalShows_v2_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VancouverMetalShows_v2_0Tests.framework; path = "Pods-VancouverMetalShows_v2.0Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		506751D687B089CAA7E3A612CD6CF751 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-umbrella.h"; sourceTree = "<group>"; };
+		595E5109E91B538904051C59559FE489 /* Pods-VancouverMetalShows_v2.0Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VancouverMetalShows_v2.0Tests.modulemap"; sourceTree = "<group>"; };
+		5AA676E4566DEAD3C1A62B20069D4DCB /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-Info.plist"; sourceTree = "<group>"; };
+		5B6F83C5C38DF72B6054597230DB3897 /* Pods-VancouverMetalShows_v2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VancouverMetalShows_v2.0.release.xcconfig"; sourceTree = "<group>"; };
+		5E734D075D0AAF4802A3741ABE1F36E4 /* Pods-VancouverMetalShows_v2.0Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VancouverMetalShows_v2.0Tests-dummy.m"; sourceTree = "<group>"; };
+		5F77E1489F99E620BC3DE1BC8217BE04 /* Pods-VancouverMetalShows_v2.0-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VancouverMetalShows_v2.0-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		82D234AACC28CF3DF319B9D5F9F0A6BB /* Pods_VancouverMetalShows_v2_0_VancouverMetalShows_v2_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VancouverMetalShows_v2_0_VancouverMetalShows_v2_0UITests.framework; path = "Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D3D46F7D7E8A9897F66F753311C9BC /* Pods-VancouverMetalShows_v2.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VancouverMetalShows_v2.0-dummy.m"; sourceTree = "<group>"; };
+		89A88A6EF6812EEFA05639268C791D3C /* Pods-VancouverMetalShows_v2.0Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VancouverMetalShows_v2.0Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		926EC305B80AA5D92DCCBBDE6C926FB9 /* Pods-VancouverMetalShows_v2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VancouverMetalShows_v2.0.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A76688AB14B5608D06BBC8F1916A44B7 /* Pods-VancouverMetalShows_v2.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VancouverMetalShows_v2.0-umbrella.h"; sourceTree = "<group>"; };
+		AB4E4DAB16B8F87C4CAC86C03E7A818D /* Pods-VancouverMetalShows_v2.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VancouverMetalShows_v2.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACFD598D45B5A7C36D12F2F0DBFD7D44 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AEFE06713FD252114D7839AC993E7420 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests.modulemap"; sourceTree = "<group>"; };
+		B429FC0E87179DC9320A9FF177C49E75 /* Pods-VancouverMetalShows_v2.0Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VancouverMetalShows_v2.0Tests-Info.plist"; sourceTree = "<group>"; };
+		BADAD461C64B63BFBA9BA1C522DEC736 /* Pods-VancouverMetalShows_v2.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VancouverMetalShows_v2.0.modulemap"; sourceTree = "<group>"; };
+		C2CCCC5EA9EBBCB2F08CF295936D6CE8 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C8A5BC0DEF40B30A812DB19B72ABFE00 /* Pods-VancouverMetalShows_v2.0-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VancouverMetalShows_v2.0-acknowledgements.plist"; sourceTree = "<group>"; };
+		D653DFCB60E2CF663115DB62A91BA1E1 /* Pods-VancouverMetalShows_v2.0-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VancouverMetalShows_v2.0-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D85755F96B65AE206076BEB61F8F7BA3 /* Pods-VancouverMetalShows_v2.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VancouverMetalShows_v2.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DF5362E3AC17F45DD595236A3E247719 /* Pods-VancouverMetalShows_v2.0Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VancouverMetalShows_v2.0Tests-umbrella.h"; sourceTree = "<group>"; };
+		E0E7D903504A6A38EACE76B6B45B081F /* Pods-VancouverMetalShows_v2.0Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VancouverMetalShows_v2.0Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF95C8B6AA23F46094DE77FE878F1EB9 /* Pods_VancouverMetalShows_v2_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VancouverMetalShows_v2_0.framework; path = "Pods-VancouverMetalShows_v2.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08D3955C71FA1391DCD22E3CF5E41190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7237986B0CC058548273FED4DF611D6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51F30FAE8B50C684BB30CEF50610093F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E9EA30ACDC19E4B5437B5424367DD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04B5B58EA54E6E9F473B20A7F5FF257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE17A2F5E96864EF75CF9FFA7C345D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		223687AF824BF5AAEE28661EA4DF437A /* Pods-VancouverMetalShows_v2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				595E5109E91B538904051C59559FE489 /* Pods-VancouverMetalShows_v2.0Tests.modulemap */,
+				89A88A6EF6812EEFA05639268C791D3C /* Pods-VancouverMetalShows_v2.0Tests-acknowledgements.markdown */,
+				E0E7D903504A6A38EACE76B6B45B081F /* Pods-VancouverMetalShows_v2.0Tests-acknowledgements.plist */,
+				5E734D075D0AAF4802A3741ABE1F36E4 /* Pods-VancouverMetalShows_v2.0Tests-dummy.m */,
+				B429FC0E87179DC9320A9FF177C49E75 /* Pods-VancouverMetalShows_v2.0Tests-Info.plist */,
+				DF5362E3AC17F45DD595236A3E247719 /* Pods-VancouverMetalShows_v2.0Tests-umbrella.h */,
+				AB4E4DAB16B8F87C4CAC86C03E7A818D /* Pods-VancouverMetalShows_v2.0Tests.debug.xcconfig */,
+				D85755F96B65AE206076BEB61F8F7BA3 /* Pods-VancouverMetalShows_v2.0Tests.release.xcconfig */,
+			);
+			name = "Pods-VancouverMetalShows_v2.0Tests";
+			path = "Target Support Files/Pods-VancouverMetalShows_v2.0Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B3F46E89AC1037DD573F12F945145E91 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE820B4FA85FFA924D75E5679C8209C7 /* Pods-VancouverMetalShows_v2.0 */,
+				223687AF824BF5AAEE28661EA4DF437A /* Pods-VancouverMetalShows_v2.0Tests */,
+				E3749775F6BA277B985C13D04E6AB083 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BE820B4FA85FFA924D75E5679C8209C7 /* Pods-VancouverMetalShows_v2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				BADAD461C64B63BFBA9BA1C522DEC736 /* Pods-VancouverMetalShows_v2.0.modulemap */,
+				D653DFCB60E2CF663115DB62A91BA1E1 /* Pods-VancouverMetalShows_v2.0-acknowledgements.markdown */,
+				C8A5BC0DEF40B30A812DB19B72ABFE00 /* Pods-VancouverMetalShows_v2.0-acknowledgements.plist */,
+				85D3D46F7D7E8A9897F66F753311C9BC /* Pods-VancouverMetalShows_v2.0-dummy.m */,
+				5F77E1489F99E620BC3DE1BC8217BE04 /* Pods-VancouverMetalShows_v2.0-Info.plist */,
+				A76688AB14B5608D06BBC8F1916A44B7 /* Pods-VancouverMetalShows_v2.0-umbrella.h */,
+				926EC305B80AA5D92DCCBBDE6C926FB9 /* Pods-VancouverMetalShows_v2.0.debug.xcconfig */,
+				5B6F83C5C38DF72B6054597230DB3897 /* Pods-VancouverMetalShows_v2.0.release.xcconfig */,
+			);
+			name = "Pods-VancouverMetalShows_v2.0";
+			path = "Target Support Files/Pods-VancouverMetalShows_v2.0";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DB065A3CA12DADAD170306268686BA7E /* Products */,
+				B3F46E89AC1037DD573F12F945145E91 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB065A3CA12DADAD170306268686BA7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF95C8B6AA23F46094DE77FE878F1EB9 /* Pods_VancouverMetalShows_v2_0.framework */,
+				82D234AACC28CF3DF319B9D5F9F0A6BB /* Pods_VancouverMetalShows_v2_0_VancouverMetalShows_v2_0UITests.framework */,
+				4D4FAF1B6647224E556A140928D075D1 /* Pods_VancouverMetalShows_v2_0Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3749775F6BA277B985C13D04E6AB083 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEFE06713FD252114D7839AC993E7420 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests.modulemap */,
+				0F7BB85AE953B4AFE5291300A673644B /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-acknowledgements.markdown */,
+				C2CCCC5EA9EBBCB2F08CF295936D6CE8 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-acknowledgements.plist */,
+				298BBDF990B03D4B24C32FFAC9EE9539 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-dummy.m */,
+				5AA676E4566DEAD3C1A62B20069D4DCB /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-Info.plist */,
+				506751D687B089CAA7E3A612CD6CF751 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-umbrella.h */,
+				ACFD598D45B5A7C36D12F2F0DBFD7D44 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests.debug.xcconfig */,
+				3F5DB466F05140A793DB05E21B357ADB /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests.release.xcconfig */,
+			);
+			name = "Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests";
+			path = "Target Support Files/Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7E7CD557B0624E5E2E4248FA0BD3758F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AB52417EF9FBED1DB777CDD0F5E391 /* Pods-VancouverMetalShows_v2.0-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E584E4F2897B87CE39993BF9A200580 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C03190FEAC53F99BF121DC13F354FB7 /* Pods-VancouverMetalShows_v2.0Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E0B794CF97D6F36C40DD07D69E3735 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F89F3090249F0F3D4ED20834D13D68 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		213C3C2282172F7791EBA1E570A3B0C7 /* Pods-VancouverMetalShows_v2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E93FCB384CD54B15D1D3D04C65D43383 /* Build configuration list for PBXNativeTarget "Pods-VancouverMetalShows_v2.0" */;
+			buildPhases = (
+				7E7CD557B0624E5E2E4248FA0BD3758F /* Headers */,
+				536D5449F8EB4973380DD647AD765DC8 /* Sources */,
+				B04B5B58EA54E6E9F473B20A7F5FF257 /* Frameworks */,
+				787F97D8A6885ECB7F2D62E24AB91EE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VancouverMetalShows_v2.0";
+			productName = "Pods-VancouverMetalShows_v2.0";
+			productReference = EF95C8B6AA23F46094DE77FE878F1EB9 /* Pods_VancouverMetalShows_v2_0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F51A40C8925B726F59E92952184F244 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB069B789A6E5A71AC7E86AFA6D6D5A /* Build configuration list for PBXNativeTarget "Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests" */;
+			buildPhases = (
+				F5E0B794CF97D6F36C40DD07D69E3735 /* Headers */,
+				B056E25BCAF8ACDD316D5911369A3651 /* Sources */,
+				08D3955C71FA1391DCD22E3CF5E41190 /* Frameworks */,
+				2FBADC4D2292726067615AC9883E9C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests";
+			productName = "Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests";
+			productReference = 82D234AACC28CF3DF319B9D5F9F0A6BB /* Pods_VancouverMetalShows_v2_0_VancouverMetalShows_v2_0UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4B010575B35B23BC2E66A328D645122 /* Pods-VancouverMetalShows_v2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57664574F14F15EB072BC6612C26648E /* Build configuration list for PBXNativeTarget "Pods-VancouverMetalShows_v2.0Tests" */;
+			buildPhases = (
+				9E584E4F2897B87CE39993BF9A200580 /* Headers */,
+				F1807BFEA51B22B70AE5726CF3E7F797 /* Sources */,
+				51F30FAE8B50C684BB30CEF50610093F /* Frameworks */,
+				A2E42D69B53E461A3D2B3327F7497186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				471B6B2F3131EAA12AD92764FADC8498 /* PBXTargetDependency */,
+			);
+			name = "Pods-VancouverMetalShows_v2.0Tests";
+			productName = "Pods-VancouverMetalShows_v2.0Tests";
+			productReference = 4D4FAF1B6647224E556A140928D075D1 /* Pods_VancouverMetalShows_v2_0Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DB065A3CA12DADAD170306268686BA7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				213C3C2282172F7791EBA1E570A3B0C7 /* Pods-VancouverMetalShows_v2.0 */,
+				9F51A40C8925B726F59E92952184F244 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests */,
+				C4B010575B35B23BC2E66A328D645122 /* Pods-VancouverMetalShows_v2.0Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FBADC4D2292726067615AC9883E9C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787F97D8A6885ECB7F2D62E24AB91EE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2E42D69B53E461A3D2B3327F7497186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		536D5449F8EB4973380DD647AD765DC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA54F84DAB16673E5DEBF4A1782ED5A /* Pods-VancouverMetalShows_v2.0-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B056E25BCAF8ACDD316D5911369A3651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38929E25BAB3DFBAA53511F0179E920 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1807BFEA51B22B70AE5726CF3E7F797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFFB74491D151ABC4105DD4594EF674 /* Pods-VancouverMetalShows_v2.0Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		471B6B2F3131EAA12AD92764FADC8498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VancouverMetalShows_v2.0";
+			target = 213C3C2282172F7791EBA1E570A3B0C7 /* Pods-VancouverMetalShows_v2.0 */;
+			targetProxy = FC6EB557C291B78CA1F5A7667DCD28C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00938D48A4BBA9B751162A920B05B995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F5DB466F05140A793DB05E21B357ADB /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests/Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests/Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0DF9916933C89BAE8EE353EFAF5EDE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACFD598D45B5A7C36D12F2F0DBFD7D44 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests/Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests/Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23E254DF029E4FF548CA870227CF9009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3A69DDC7D52E8F43890B189D72F34A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 926EC305B80AA5D92DCCBBDE6C926FB9 /* Pods-VancouverMetalShows_v2.0.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VancouverMetalShows_v2.0/Pods-VancouverMetalShows_v2.0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VancouverMetalShows_v2.0/Pods-VancouverMetalShows_v2.0.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AE3AFDADDD16584EE93EC72D8940A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D85755F96B65AE206076BEB61F8F7BA3 /* Pods-VancouverMetalShows_v2.0Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VancouverMetalShows_v2.0Tests/Pods-VancouverMetalShows_v2.0Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VancouverMetalShows_v2.0Tests/Pods-VancouverMetalShows_v2.0Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C210E3F81CA92EFAA4171A100320264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B6F83C5C38DF72B6054597230DB3897 /* Pods-VancouverMetalShows_v2.0.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VancouverMetalShows_v2.0/Pods-VancouverMetalShows_v2.0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VancouverMetalShows_v2.0/Pods-VancouverMetalShows_v2.0.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B78068E4195CEC7884BBCAFD49EA45C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DB6C93807B5E22E29EBC32377CA21328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB4E4DAB16B8F87C4CAC86C03E7A818D /* Pods-VancouverMetalShows_v2.0Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VancouverMetalShows_v2.0Tests/Pods-VancouverMetalShows_v2.0Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VancouverMetalShows_v2.0Tests/Pods-VancouverMetalShows_v2.0Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E254DF029E4FF548CA870227CF9009 /* Debug */,
+				B78068E4195CEC7884BBCAFD49EA45C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57664574F14F15EB072BC6612C26648E /* Build configuration list for PBXNativeTarget "Pods-VancouverMetalShows_v2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6C93807B5E22E29EBC32377CA21328 /* Debug */,
+				4AE3AFDADDD16584EE93EC72D8940A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB069B789A6E5A71AC7E86AFA6D6D5A /* Build configuration list for PBXNativeTarget "Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF9916933C89BAE8EE353EFAF5EDE17 /* Debug */,
+				00938D48A4BBA9B751162A920B05B995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E93FCB384CD54B15D1D3D04C65D43383 /* Build configuration list for PBXNativeTarget "Pods-VancouverMetalShows_v2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A69DDC7D52E8F43890B189D72F34A83 /* Debug */,
+				9C210E3F81CA92EFAA4171A100320264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
