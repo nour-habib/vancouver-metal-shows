@@ -1,10 +1,10 @@
 # Vancouver Metal Shows
- iOS, objective-c version
+iOS, objective-c version
+
 <img src="shows.png" width="300">
 
-![](favs.png)
+<img src="favs.png" width="300">
 
-![](upcoming.png)
+<img src="upcoming.png" width="300">
 
-
-![](detail.png)
+<img src="detail.png" width="300">
