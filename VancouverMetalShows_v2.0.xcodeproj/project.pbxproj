@@ -22,7 +22,6 @@
 		140D198D265740A900BAA11E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 140D198C265740A900BAA11E /* GoogleService-Info.plist */; };
 		140D19E82658837300BAA11E /* FavShowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 140D19E62658837300BAA11E /* FavShowTableViewCell.m */; };
 		140D19E92658837300BAA11E /* FavShowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 140D19E72658837300BAA11E /* FavShowTableViewCell.xib */; };
-		140D19EE2659E08D00BAA11E /* vms_logo_png.png in Resources */ = {isa = PBXBuildFile; fileRef = 140D19ED2659E08C00BAA11E /* vms_logo_png.png */; };
 		140D19F3265AEF1700BAA11E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140D19F2265AEF1700BAA11E /* Launch Screen.storyboard */; };
 		140D1A12265C6E5300BAA11E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 140D1A11265C6E5300BAA11E /* Accelerate.framework */; };
 		140D1A14265C6E5E00BAA11E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 140D1A13265C6E5E00BAA11E /* CoreData.framework */; };
@@ -96,7 +95,6 @@
 		140D19E52658837300BAA11E /* FavShowTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavShowTableViewCell.h; sourceTree = "<group>"; };
 		140D19E62658837300BAA11E /* FavShowTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavShowTableViewCell.m; sourceTree = "<group>"; };
 		140D19E72658837300BAA11E /* FavShowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavShowTableViewCell.xib; sourceTree = "<group>"; };
-		140D19ED2659E08C00BAA11E /* vms_logo_png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vms_logo_png.png; sourceTree = "<group>"; };
 		140D19F2265AEF1700BAA11E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		140D1A11265C6E5300BAA11E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		140D1A13265C6E5E00BAA11E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -206,35 +204,21 @@
 			children = (
 				04DCC2201CD6A1B200ED9EF3 /* AppDelegate.h */,
 				04DCC2211CD6A1B200ED9EF3 /* AppDelegate.m */,
+				140D1B682669E64900BAA11E /* Cells */,
 				140D19F2265AEF1700BAA11E /* Launch Screen.storyboard */,
-				04DCC2531CD6AC1200ED9EF3 /* MainViewController.h */,
-				04DCC2541CD6AC1200ED9EF3 /* MainViewController.m */,
 				146AA3F821D328C7007148D0 /* data.json */,
-				140D196E263FB55200BAA11E /* ShowTableViewCell.h */,
-				140D196F263FB55200BAA11E /* ShowTableViewCell.m */,
-				140D1970263FB55200BAA11E /* ShowTableViewCell.xib */,
-				146AA3FA21EBC3E0007148D0 /* DetailViewController.h */,
-				14E090C6234136190037EC64 /* DetailViewController.m */,
+				140D1B642669E54200BAA11E /* Classes */,
+				140D1B632669E52300BAA11E /* Controllers */,
 				140D198C265740A900BAA11E /* GoogleService-Info.plist */,
-				04DCC2231CD6A1B200ED9EF3 /* ViewController.h */,
-				04DCC2241CD6A1B200ED9EF3 /* ViewController.m */,
 				04DCC2261CD6A1B200ED9EF3 /* Main.storyboard */,
 				04DCC2291CD6A1B200ED9EF3 /* Assets.xcassets */,
-				140D19ED2659E08C00BAA11E /* vms_logo_png.png */,
 				04DCC22B1CD6A1B200ED9EF3 /* LaunchScreen.storyboard */,
 				04DCC22E1CD6A1B200ED9EF3 /* Info.plist */,
 				04DCC21D1CD6A1B200ED9EF3 /* Supporting Files */,
-				04DCC2501CD6A59300ED9EF3 /* ShowModel.h */,
 				140D1A76265C853F00BAA11E /* GoogleMaps.bundle */,
 				140D1A74265C852A00BAA11E /* GoogleMapsBase.framework */,
-				04DCC2511CD6A59300ED9EF3 /* ShowModel.m */,
 				140D1A72265C850A00BAA11E /* GoogleMapsCore.framework */,
 				140D1A70265C850500BAA11E /* GoogleMaps.framework */,
-				146F7C612409F86D0032EB1F /* FavouritesTableViewController.h */,
-				146F7C622409F86D0032EB1F /* FavouritesTableViewController.m */,
-				140D19E52658837300BAA11E /* FavShowTableViewCell.h */,
-				140D19E62658837300BAA11E /* FavShowTableViewCell.m */,
-				140D19E72658837300BAA11E /* FavShowTableViewCell.xib */,
 			);
 			path = VancouverMetalShows_v2.0;
 			sourceTree = "<group>";
@@ -263,6 +247,43 @@
 				04DCC2441CD6A1B200ED9EF3 /* Info.plist */,
 			);
 			path = VancouverMetalShows_v2.0UITests;
+			sourceTree = "<group>";
+		};
+		140D1B632669E52300BAA11E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04DCC2231CD6A1B200ED9EF3 /* ViewController.h */,
+				146AA3FA21EBC3E0007148D0 /* DetailViewController.h */,
+				14E090C6234136190037EC64 /* DetailViewController.m */,
+				04DCC2241CD6A1B200ED9EF3 /* ViewController.m */,
+				146F7C612409F86D0032EB1F /* FavouritesTableViewController.h */,
+				146F7C622409F86D0032EB1F /* FavouritesTableViewController.m */,
+				04DCC2531CD6AC1200ED9EF3 /* MainViewController.h */,
+				04DCC2541CD6AC1200ED9EF3 /* MainViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		140D1B642669E54200BAA11E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04DCC2501CD6A59300ED9EF3 /* ShowModel.h */,
+				04DCC2511CD6A59300ED9EF3 /* ShowModel.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		140D1B682669E64900BAA11E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				140D196E263FB55200BAA11E /* ShowTableViewCell.h */,
+				140D19E52658837300BAA11E /* FavShowTableViewCell.h */,
+				140D19E62658837300BAA11E /* FavShowTableViewCell.m */,
+				140D19E72658837300BAA11E /* FavShowTableViewCell.xib */,
+				140D196F263FB55200BAA11E /* ShowTableViewCell.m */,
+				140D1970263FB55200BAA11E /* ShowTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		3A611A4D219605E436E2D20E /* Pods */ = {
@@ -418,7 +439,6 @@
 				140D19F3265AEF1700BAA11E /* Launch Screen.storyboard in Resources */,
 				140D1972263FB55200BAA11E /* ShowTableViewCell.xib in Resources */,
 				146AA3F921D328C7007148D0 /* data.json in Resources */,
-				140D19EE2659E08D00BAA11E /* vms_logo_png.png in Resources */,
 				04DCC2281CD6A1B200ED9EF3 /* Main.storyboard in Resources */,
 				140D198D265740A900BAA11E /* GoogleService-Info.plist in Resources */,
 				140D1A77265C853F00BAA11E /* GoogleMaps.bundle in Resources */,
