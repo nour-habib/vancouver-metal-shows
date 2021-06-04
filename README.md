@@ -11,3 +11,8 @@ iOS, objective-c version
 <img src="upcoming.png" width="300">
 
 <img src="detail.png" width="300">
+
+
+Photo credit: 
+Kataklysm - Nuclear Blast
+Megadeth - Getty Images
