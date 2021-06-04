@@ -1,7 +1,6 @@
 # Vancouver Metal Shows
  iOS, objective-c version
-
-![](shows.png | width=300)
+<img src=shows.png" width="300">
 
 ![](favs.png)
 
