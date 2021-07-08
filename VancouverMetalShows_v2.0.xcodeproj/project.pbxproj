@@ -44,6 +44,7 @@
 		140D1A77265C853F00BAA11E /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 140D1A76265C853F00BAA11E /* GoogleMaps.bundle */; };
 		146AA3F921D328C7007148D0 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 146AA3F821D328C7007148D0 /* data.json */; };
 		146F7C632409F86D0032EB1F /* FavouritesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146F7C622409F86D0032EB1F /* FavouritesTableViewController.m */; };
+		14AB651F269792B100BE3A16 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AB651E269792B100BE3A16 /* MapKit.framework */; };
 		14E090C7234136190037EC64 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E090C6234136190037EC64 /* DetailViewController.m */; };
 		D91F2DCD1F949E595B5D0893 /* Pods_VancouverMetalShows_v2_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C30159B8FECC7B1DCD14F3 /* Pods_VancouverMetalShows_v2_0Tests.framework */; };
 		F1A6427632E9149338AE0B9F /* Pods_VancouverMetalShows_v2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42038904AD693D6852F0795 /* Pods_VancouverMetalShows_v2_0.framework */; };
@@ -119,6 +120,7 @@
 		146AA3FA21EBC3E0007148D0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		146F7C612409F86D0032EB1F /* FavouritesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavouritesTableViewController.h; sourceTree = "<group>"; };
 		146F7C622409F86D0032EB1F /* FavouritesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavouritesTableViewController.m; sourceTree = "<group>"; };
+		14AB651E269792B100BE3A16 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		14E090C6234136190037EC64 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		38CAB691027F219B22A610B5 /* Pods_VancouverMetalShows_v2_0_VancouverMetalShows_v2_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VancouverMetalShows_v2_0_VancouverMetalShows_v2_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		422E2B0C85DD72C19E41BA56 /* Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests.release.xcconfig"; path = "Target Support Files/Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests/Pods-VancouverMetalShows_v2.0-VancouverMetalShows_v2.0UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 			files = (
 				140D1A3A265C7A5600BAA11E /* libz.tbd in Frameworks */,
 				140D1A2F265C6EF600BAA11E /* UIKit.framework in Frameworks */,
+				14AB651F269792B100BE3A16 /* MapKit.framework in Frameworks */,
 				140D1A2D265C6EED00BAA11E /* SystemConfiguration.framework in Frameworks */,
 				140D1A2B265C6EE400BAA11E /* QuartzCore.framework in Frameworks */,
 				140D1A29265C6ED900BAA11E /* OpenGLES.framework in Frameworks */,
@@ -302,6 +305,7 @@
 		FFD1765F0CD6ADAC8567FEDF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				14AB651E269792B100BE3A16 /* MapKit.framework */,
 				140D1A39265C7A5600BAA11E /* libz.tbd */,
 				140D1A2E265C6EF600BAA11E /* UIKit.framework */,
 				140D1A2C265C6EED00BAA11E /* SystemConfiguration.framework */,
@@ -391,7 +395,7 @@
 		04DCC2121CD6A1B200ED9EF3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = Nour;
 				TargetAttributes = {
 					04DCC2191CD6A1B200ED9EF3 = {
@@ -409,10 +413,9 @@
 			};
 			buildConfigurationList = 04DCC2151CD6A1B200ED9EF3 /* Build configuration list for PBXProject "VancouverMetalShows_v2.0" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -674,14 +677,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -707,7 +713,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
@@ -731,14 +737,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -758,7 +767,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = (
 					"$(OTHER_LDFLAGS)",
@@ -783,7 +792,7 @@
 					"$(PROJECT_DIR)/GoogleMaps-5.0.0\\ 2/Base/Frameworks",
 				);
 				INFOPLIST_FILE = VancouverMetalShows_v2.0/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Habib.VancouverMetalShows-v2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -803,7 +812,7 @@
 					"$(PROJECT_DIR)/GoogleMaps-5.0.0\\ 2/Base/Frameworks",
 				);
 				INFOPLIST_FILE = VancouverMetalShows_v2.0/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Habib.VancouverMetalShows-v2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";

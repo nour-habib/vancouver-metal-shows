@@ -162,11 +162,11 @@ static NSString *trackedQueryKeysKey(NSUInteger trackedQueryId, NSString *key) {
                       error:&error];
         if (writes != nil) {
             __block NSUInteger numberOfWritesRestored = 0;
-            // Maybe we could use write batches, but what the heck, I'm sure
-            // it'll go fine :P
+
             [writes enumerateKeysAndValuesAsData:^(NSString *key, NSData *data,
                                                    BOOL *stop) {
-              id pendingPut = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+             // id pendingPut = [NSKeyedUnarchiver unarchivedObjectOfClass:<#(nonnull Class)#> fromData:data error:(NSError *__autoreleasing  _Nullable * _Nullable)];
+                id pendingPut = [NSKeyedUnarchiver unarchiveObjectWithData:data];
               if ([pendingPut isKindOfClass:[FPendingPut class]]) {
                   FPendingPut *put = pendingPut;
                   id<FNode> newNode =

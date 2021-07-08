@@ -51,9 +51,6 @@
     
     self.title = self.showModel.artist;
     
-    
-
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -76,10 +73,6 @@
     [super viewWillAppear:animated];
     self.navigationController.navigationBarHidden = NO;
     
-   
-    
-    
- 
 }
 
 
@@ -89,14 +82,12 @@
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:49.2827
                                                              longitude:123.1207
                                                                  zoom:1];
-     _mapView = [GMSMapView mapWithFrame:CGRectMake(10, 360, self.view.frame.size.width-20, self.view.frame.size.height-370) camera:camera];
+     self.mapView = [GMSMapView mapWithFrame:CGRectMake(10, 360, self.view.frame.size.width-20, self.view.frame.size.height-370) camera:camera];
     
     [self.view addSubview:_mapView];
     
-     _mapView.myLocationEnabled = YES;
-    _mapView.camera = camera;
-    //_mapView.mapType = kGMSTypeSatellite;
-    
+     self.mapView.myLocationEnabled = YES;
+    self.mapView.camera = camera;
      
    // mapView.center = self.view.center;
 
@@ -110,14 +101,8 @@
 
 //     marker.title = @"Sydney";
 //     marker.snippet = @"Australia";
-     marker.map = _mapView;
+     marker.map = self.mapView;
 
-
-    
-    
-
-    
-    
 }
 
 -(IBAction)addToFavs:(id)sender
@@ -138,9 +123,6 @@
       if (error != nil) {
         NSLog(@"Error writing document: %@", error);
       } else {
-          
-//          MainViewController *mv = [[MainViewController alloc]init];
-//          [mv ShowAlert:@"Added"];
         NSLog(@"Document successfully written!");
       }
     }];

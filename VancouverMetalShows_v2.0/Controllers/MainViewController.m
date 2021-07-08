@@ -39,7 +39,6 @@
 -(void) setupScrollView{
     __block int i = 0;
 
-    
     UIScrollView *imageScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 130,
                                                                                   self.view.frame.size.width,
                                                                                   self.view.frame.size.height-250)];
@@ -55,11 +54,12 @@
          getDocumentsWithCompletion:^(FIRQuerySnapshot * _Nullable snapshot,
                                       NSError * _Nullable error) {
 
-           if (error != nil) {
+           if (error != nil)
+           {
              //NSLog(@"Error getting documents: %@", error);
            } else {
-             for (FIRDocumentSnapshot *document in snapshot.documents) {
-               //NSLog(@"%@ => %@", document.documentID, document.data);
+             for (FIRDocumentSnapshot *document in snapshot.documents)
+             {
 
 
                  NSString *artist = [document.data objectForKey:@"artist"];
@@ -74,21 +74,21 @@
                  CGFloat xOrigin = i*self.view.frame.size.width;
                  i++;
                  
-                 _infoLabel = [[UILabel alloc]  initWithFrame:CGRectMake(xOrigin, imageScrollView.frame.size.height-75, self.view.frame.size.width, 50)];
+                 self.infoLabel = [[UILabel alloc]  initWithFrame:CGRectMake(xOrigin, imageScrollView.frame.size.height-75, self.view.frame.size.width, 50)];
                  
             
-                 _infoLabel.numberOfLines=2;
+                 self.infoLabel.numberOfLines=2;
                  NSString *showInfo = [NSString stringWithString:show.artist];
                  showInfo = [showInfo stringByAppendingString:@"\n"];
                  showInfo = [showInfo stringByAppendingString:show.date];
                  //NSLog(@"showInfo: %@", showInfo);
-                 _infoLabel.text = showInfo;
-                 _infoLabel.font = [UIFont fontWithName:@"Arial-BoldMT" size:18];
-                 _infoLabel.textColor = [UIColor whiteColor];
+                 self.infoLabel.text = showInfo;
+                 self.infoLabel.font = [UIFont fontWithName:@"Arial-BoldMT" size:18];
+                 self.infoLabel.textColor = [UIColor whiteColor];
                  
-                _infoLabel.textAlignment = NSTextAlignmentCenter;
+                self.infoLabel.textAlignment = NSTextAlignmentCenter;
 
-                 [imageScrollView addSubview:_infoLabel];
+                 [imageScrollView addSubview:self.infoLabel];
                  
                  
                  NSString *imgName = [NSString stringWithString: show.artist];
@@ -98,24 +98,11 @@
                  
                 img = [UIImage imageNamed:imgName];
                  
-                _imageView= [[UIImageView alloc]initWithFrame:CGRectMake(xOrigin, -150, self.view.frame.size.width, self.view.frame.size.height)];
-                _imageView.image = img;
-                _imageView.contentMode = UIViewContentModeScaleAspectFit;
+                self.imageView= [[UIImageView alloc]initWithFrame:CGRectMake(xOrigin, -150, self.view.frame.size.width, self.view.frame.size.height)];
+                self.imageView.image = img;
+                self.imageView.contentMode = UIViewContentModeScaleAspectFit;
                  
-                [imageScrollView addSubview:_imageView];
-                 
-//                 NSLayoutConstraint *infoLabelConstraint = [NSLayoutConstraint
-//                                                              constraintWithItem:_infoLabel attribute:NSLayoutAttributeTop
-//                                                              relatedBy:NSLayoutRelationEqual toItem:_imageView attribute:
-//                                                              NSLayoutAttributeBottom multiplier:1.0 constant:5];
-//                 
-//                 [self.view addConstraint:infoLabelConstraint];
-                 
-//                 NSLayoutConstraint *imageConstraint = [NSLayoutConstraint
-//                                                                               constraintWithItem:_imageView attribute:NSLayoutAttributeTop
-//                                                                               relatedBy:NSLayoutRelationEqual toItem:_outerView attribute:
-//                                                                               NSLayoutAttributeTop multiplier:1.0 constant:5];
-//                 [self.view addConstraint:imageConstraint];
+                [imageScrollView addSubview:self.imageView];
             
              }
            }
@@ -127,7 +114,7 @@
     imageScrollView.contentSize = CGSizeMake(self.view.frame.size.width*3, self.view.frame.size.height-250);
     [self.view addSubview:imageScrollView];
     
-    [imageScrollView.topAnchor constraintEqualToAnchor:self.view.topAnchor constant:30].active=YES;
+    //[imageScrollView.topAnchor constraintEqualToAnchor:self.view.topAnchor constant:30].active=YES;
     
 }
 
