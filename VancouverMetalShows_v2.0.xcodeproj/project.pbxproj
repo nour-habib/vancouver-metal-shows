@@ -44,6 +44,8 @@
 		140D1A77265C853F00BAA11E /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 140D1A76265C853F00BAA11E /* GoogleMaps.bundle */; };
 		146AA3F921D328C7007148D0 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 146AA3F821D328C7007148D0 /* data.json */; };
 		146F7C632409F86D0032EB1F /* FavouritesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146F7C622409F86D0032EB1F /* FavouritesTableViewController.m */; };
+		14A7C8F12697C5C700C104E5 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7C8F02697C5C700C104E5 /* MapView.m */; };
+		14A7C8F22697DCD100C104E5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AB651E269792B100BE3A16 /* MapKit.framework */; };
 		14AB651F269792B100BE3A16 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AB651E269792B100BE3A16 /* MapKit.framework */; };
 		14E090C7234136190037EC64 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E090C6234136190037EC64 /* DetailViewController.m */; };
 		D91F2DCD1F949E595B5D0893 /* Pods_VancouverMetalShows_v2_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C30159B8FECC7B1DCD14F3 /* Pods_VancouverMetalShows_v2_0Tests.framework */; };
@@ -120,6 +122,8 @@
 		146AA3FA21EBC3E0007148D0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		146F7C612409F86D0032EB1F /* FavouritesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavouritesTableViewController.h; sourceTree = "<group>"; };
 		146F7C622409F86D0032EB1F /* FavouritesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavouritesTableViewController.m; sourceTree = "<group>"; };
+		14A7C8EF2697C5C700C104E5 /* MapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		14A7C8F02697C5C700C104E5 /* MapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
 		14AB651E269792B100BE3A16 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		14E090C6234136190037EC64 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		38CAB691027F219B22A610B5 /* Pods_VancouverMetalShows_v2_0_VancouverMetalShows_v2_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VancouverMetalShows_v2_0_VancouverMetalShows_v2_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +146,7 @@
 				140D1A2F265C6EF600BAA11E /* UIKit.framework in Frameworks */,
 				14AB651F269792B100BE3A16 /* MapKit.framework in Frameworks */,
 				140D1A2D265C6EED00BAA11E /* SystemConfiguration.framework in Frameworks */,
+				14A7C8F22697DCD100C104E5 /* MapKit.framework in Frameworks */,
 				140D1A2B265C6EE400BAA11E /* QuartzCore.framework in Frameworks */,
 				140D1A29265C6ED900BAA11E /* OpenGLES.framework in Frameworks */,
 				140D1A24265C6ECF00BAA11E /* libc++.tbd in Frameworks */,
@@ -207,6 +212,8 @@
 			children = (
 				04DCC2201CD6A1B200ED9EF3 /* AppDelegate.h */,
 				04DCC2211CD6A1B200ED9EF3 /* AppDelegate.m */,
+				14A7C8EF2697C5C700C104E5 /* MapView.h */,
+				14A7C8F02697C5C700C104E5 /* MapView.m */,
 				140D1B682669E64900BAA11E /* Cells */,
 				140D19F2265AEF1700BAA11E /* Launch Screen.storyboard */,
 				146AA3F821D328C7007148D0 /* data.json */,
@@ -611,6 +618,7 @@
 				04DCC2551CD6AC1200ED9EF3 /* MainViewController.m in Sources */,
 				04DCC21F1CD6A1B200ED9EF3 /* main.m in Sources */,
 				140D19E82658837300BAA11E /* FavShowTableViewCell.m in Sources */,
+				14A7C8F12697C5C700C104E5 /* MapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

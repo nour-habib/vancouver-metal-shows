@@ -11,7 +11,9 @@
 @interface DetailViewController ()
 
 @property (nonatomic, readwrite) FIRFirestore *db;
-@property (nonatomic, strong) GMSMapView *mapView;
+//@property (nonatomic, strong) GMSMapView *mapView;
+@property (nonatomic,strong) MapView *mapView;
+
 
 @end
 
@@ -20,6 +22,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
     
     //NSLog(@"artistLabel: %@", self.showModel.artist);
     _artistLabel.text = self.showModel.artist;
@@ -37,7 +41,7 @@
     
     _artistImageview.image = [UIImage imageNamed:self.showModel.artistImage];
     self.navigationItem.title = _artistLabel.text;
-   [self showMap];
+   //[self showMap];
     
     _addToFavsButton.layer.cornerRadius = 10;
     _addToFavsButton.clipsToBounds = YES;
@@ -50,6 +54,12 @@
     
     
     self.title = self.showModel.artist;
+    
+    _mapView = [[MapView alloc]initWithFrame:CGRectMake(10,360,self.view.frame.size.width-20,self.view.frame.size.height-370)];
+    NSString *add = [self.venueLabel.text stringByAppendingString:@", Vancouver,BC"];
+    //NSString *test = @"601 Smithe St, Vancouver, BC  V6B 3L4";
+    [_mapView showMap:add];
+    [self.view addSubview:_mapView];
     
 }
 
@@ -75,36 +85,6 @@
     
 }
 
-
-//To Fix
-- (void)showMap
-{
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:49.2827
-                                                             longitude:123.1207
-                                                                 zoom:1];
-     self.mapView = [GMSMapView mapWithFrame:CGRectMake(10, 360, self.view.frame.size.width-20, self.view.frame.size.height-370) camera:camera];
-    
-    [self.view addSubview:_mapView];
-    
-     self.mapView.myLocationEnabled = YES;
-    self.mapView.camera = camera;
-     
-   // mapView.center = self.view.center;
-
-
-     // Creates a marker in the center of the map.
-     GMSMarker *marker = [[GMSMarker alloc] init];
-     marker.position = CLLocationCoordinate2DMake(49.2827, 123.1207);
-//    mapView.camera = GMSCameraPosition(target: CLLocationCoordinate2D(latitude: 49.2827, longitude: 123.1207), zoom: 15, bearing: 0, viewingAngle: 0);
-    
-//    _mapView.camera = [GMSCameraPosition cameraWithLatitude:49.2827 longitude:123.1207 zoom:1];
-
-//     marker.title = @"Sydney";
-//     marker.snippet = @"Australia";
-     marker.map = self.mapView;
-
-}
-
 -(IBAction)addToFavs:(id)sender
 {
     self.db = [FIRFirestore firestore];
@@ -126,15 +106,11 @@
         NSLog(@"Document successfully written!");
       }
     }];
-
-    
-    //NSLog(@"test");
 }
 
 
 -(IBAction)shareAction:(id)sender
 {
-    //NSLog(@"Buttonpressed:");
     NSArray* sharedObjects=[NSArray arrayWithObjects:@"sharecontent",  nil];
     UIActivityViewController *activityViewController = [[UIActivityViewController alloc] initWithActivityItems:sharedObjects applicationActivities:nil];
     activityViewController.popoverPresentationController.sourceView = self.view;

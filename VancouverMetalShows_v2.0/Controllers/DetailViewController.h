@@ -10,8 +10,9 @@
 @import Firebase;
 #import <GoogleMaps/GoogleMaps.h>
 #import "MainViewController.h"
+#import "MapView.h"
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController 
 
 @property (strong, nonatomic) ShowModel *showModel;
 @property (nonatomic, strong) IBOutlet UILabel *artistLabel;

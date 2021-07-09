@@ -137,14 +137,11 @@
     ShowTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];//
     if(cell==nil)
     {
-        //NSLog(@"nil");
         cell = [[ShowTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
     }
     
     if(_isFiltered)
     {
-        //NSLog(@"isFiltered");
-        
         ShowModel *m = self.searchResultsArray[indexPath.row];
         cell.showModel = m;
         cell.imageView.image = [UIImage imageNamed:m.artistImage];
@@ -156,8 +153,6 @@
         cell.imageView.image = [UIImage imageNamed:[_imagesArray objectAtIndex:indexPath.row]];
         
     }
-    
-    
     
     [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
     
@@ -175,8 +170,6 @@
         DetailViewController *detailViewController = segue.destinationViewController;
         
         ShowModel *model = [_modelsArray objectAtIndex:indexPath.row];
-        
-        //NSLog(@"artistLabel: %@", model.artist);
         detailViewController.showModel = model;
         
         
